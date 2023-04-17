@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script:wght@400;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.navBar{
+    background-color: dodgerblue;
+    font-family: 'Alkatra', 'Dancing Script';
+   
+}
+.navBar nav{
+    padding: 45px;
+}
+.navBar ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.container{
+    height: 800px;
+    background-color: #C9EEFF;
+}
+.navBar ul li:hover{
+    background-color: #fff;
+    
+}
+.hello{
+    color: #44a7d5;
+}
+.name{
+    color: #44a7d5;
+}
+.about{
+    color: #0f15c3;
+}
+.navBar > nav > ul > li {
+    list-style: none;
+    font-size: 30px;
+    padding: 0.5em;
+    transition: 0.4s;
+    border-radius: 15px;
+  }
+  
+.navBar > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+  }
+.main{
+    width: 100%;
+    background-color: #C9EEFF;
+}
+.myImg img{
+    width: 56vh;
+    margin-right: 50px;
+}
+.myImg img{
+    height: 58vh;
+}
+
+.infoContainer{
+    height: 58vh;
+    width: 80w;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.myInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.hello{
+    font-size: 55px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Alkatra', 'Dancing Script';
+}
+.about{
+    font-size: 40px;
+}
+.about1{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    line-height: 2rem;
+    margin-bottom: 2em;
+    color: #6609b8;
+}
+.btn{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 17px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.form{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Alkatra', 'Dancing Script';
+}
+
+.form h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px 0;
+
+}
+
+.form form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#form-check{
+flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.aboutPage h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12px;
+    color: #6C00FF;
+}
+.aboutPage p{
+    font-family: 'Alkatra', 'Dancing Script';
+    margin: 12px;
+}
+.mySkillContainer{
+    padding: 12px;
+    margin: 1em auto
+}
+/* .mySkillContainer{
+    width: 30%;
+    padding: 12px;
+    margin: 1em auto;   
+    background-color: #C9EEFF;
+} */
+.aboutPage{
+    background-color: #C9EEFF;
+}
+.skillObjects{
+    display: flex;
+    align-items: center;
+    font-family: 'Alkatra', 'Dancing Script';
+    font-weight: 900;
+    
+}
+.skill{
+    width: 270px;
+    height: 12px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred{
+    width:270px;
+    background-color: orange;
+}
+.seventyFive{
+    width: 125px;
+    background-color: green;
+}
+.fifty{
+    width: 95px;
+    background-color: yellow;
+}
+.twentyFive{
+    width: 47px;
+    background-color: aqua;
+}
+
+/* Media query block to make website responsive */
+
+ @media only screen and (max-width: 1036px) {
+/*     
+    .navBar{
+        background-color: dodgerblue;
+        font-family: 'Alkatra', 'Dancing Script';
+       
+    }
+    .navBar nav{
+        padding: 45px;
+    }
+    .navBar ul{
+        display: flex;
+        justify-content: space-around;
+        
+    } */
+    .navBar nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        background-color: dodgerblue;
+    }
+    
+    .navBar li {
+        list-style: none;
+        font-size: 25px;
+        padding: 1em;
+        transition: 0.4s;
+        border-radius: 15px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .navBar li:hover {
+        background-color: #fff;
+    }
+    
+    .navBar li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .myInfo, .myImg {
+        text-align: center;
+    }
+    
+    .hello {
+        font-size: 2rem;
+    }
+    
+    .name {
+        font-size: 1.8rem;
+    }
+    
+    .about {
+        font-size: 1.5rem;
+    }
+    
+    .about1 {
+        font-size: 1rem;
+        margin-top: 1em;
+        line-height: 1.5rem;
+        margin-bottom: 1em;
+    }
+    
+    .btn {
+        margin-top: 1em;
+        padding: 7px 12px;
+        font-size: 18px;
+    }
+    
+    .btn-sm {
+        font-size: 15px;
+        padding: 8px 16px;
+        margin: 10px 0;
+    }
+    
+    .form form div input {
+        width: 100%;
+        margin: 6px 0 0 0;
+        padding: 8px;
+    }
+    
+    .mySkillContainer, .mySkillContainers {
+        width: 100%;
+        margin: 1em auto;
+    }
+    
+    .skillObjects {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.2rem;
+    }
+    
+    .skill {
+        width: 100%;
+        height: 12px;
+        border: 2px solid black;
+    }
+    
+    .hundred {
+        width: 100%;
+    }
+    
+    .seventyFive {
+        width: 70%;
+    }
+    
+    .fifty {
+        width: 50%;
+    }
+    
+    .twentyFive {
+        width: 25%;
+    }
+}
